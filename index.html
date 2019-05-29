@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.75">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="A nice page. One more sentence should be provided "/>
+    <meta name="keywords" content="please write some tags separated by commas">
+    <meta name="robots" content="noindex,nofollow" />
+    <title>Gallery HomePage</title>
+    <link rel="stylesheet" href="release/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="release/js/script.js" async></script>
+</head>
+<body>
+    <header class="header"></header>
+    <section class="section section--gallery">
+        <div class="container">
+            <h1 class="title">Photo Gallery</h1>
+            <ul id="gallery__filters" class="gallery__filters">
+                    <li id="show__all">show all</li>
+            </ul>
+            <div class="gallery" id="gallery" style="display: none;"></div>
+            <div id="lightbox" class="lightbox">
+                <div class="lightbox__container">
+                    <div id="lightbox__close" class="lightbox__close"><i class="fas fa-spinner fa-spin"></i></div>
+                    <img id="lightboxImage" class="lightbox__image">
+                </div>
+            </div>
+            <button id="gallery__button" class="gallery__button" style="display: none;">Show More</button>
+            <div id="gallery__loader" class="gallery__loader">
+                <div class="loader__container">
+                    <i class="fas fa-spinner fa-spin"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer"></footer>
+</body>

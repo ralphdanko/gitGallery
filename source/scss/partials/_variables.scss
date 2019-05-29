@@ -1,0 +1,15 @@
+@function color($color-name: 'primary') {
+    @return map-get($main-palette, $color-name);
+  };
+
+  @import url('https://fonts.googleapis.com/css?family=Allura|Montserrat:200,300,400&display=swap');
+
+// colors
+$main-palette: (
+    primary: #074f57,
+    secondary: #077187,
+    secondary-transpalent: #077187cc,
+    black-transpalent: #000000cc,
+    semi-transpalent: #005e71e0,
+    white: #fff
+);
